@@ -1,0 +1,21 @@
+body{
+    margin: 200px;
+    background-color: white;
+    background-repeat: no-repeat;
+    color: black;
+
+}
+
+button{
+    padding: 10px 8px;
+    width: 100px;
+    margin: 10px;
+    color: white;
+    background-color: #555;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: background 1s;
+}
