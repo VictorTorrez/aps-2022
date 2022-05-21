@@ -9,10 +9,10 @@ function Enviar(){
 
     
     
-    let blob = new blob ([cep, rua, bairro, cidade, uf, ibge],
+    let blob = new Blob ([cep, rua, bairro, cidade, uf, ibge],
         {type: "text/plain;charset=utf-8"});
 
 
-        saveAs (cep, rua, bairro, cidade, uf, ibge + ".txt");
+        saveAs (blob, cep, rua, bairro, cidade, uf, ibge + ".txt");
 
 }
